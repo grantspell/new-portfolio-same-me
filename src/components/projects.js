@@ -48,6 +48,7 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 0px 10px 0px 0px;
 
     h3 {
         font-family: 'VT323', monospace;
