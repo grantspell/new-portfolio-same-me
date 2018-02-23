@@ -122,10 +122,10 @@ class Projects extends Component {
 
                     <Buttons>
                         <div className="button">
-                            <a href="https://project-four.herokuapp.com/" target="_blank" >PUBLISHED</a>
+                            <a href="https://project-four.herokuapp.com/" target="_blank" rel="noopener noreferrer">PUBLISHED</a>
                         </div>
                         <div className="button">
-                            <a href="https://github.com/grantspell/project-four" target="_blank" >GITHUB</a>
+                            <a href="https://github.com/grantspell/project-four" target="_blank" rel="noopener noreferrer" >GITHUB</a>
                         </div>
                     </Buttons>
                 </Project>
@@ -152,10 +152,10 @@ class Projects extends Component {
 
                     <Buttons>
                         <div className="button">
-                            <a href="http://styx-hangman.bitballoon.com" target="_blank" >PUBLISHED</a>
+                            <a href="http://styx-hangman.bitballoon.com" target="_blank" rel="noopener noreferrer" >PUBLISHED</a>
                         </div>
                         <div className="button">
-                            <a href="https://github.com/grantspell/project_one" target="_blank" >GITHUB</a>
+                            <a href="https://github.com/grantspell/project_one" target="_blank" rel="noopener noreferrer" >GITHUB</a>
                         </div>
                     </Buttons>
                 </Project>
