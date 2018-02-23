@@ -35,7 +35,7 @@ const DisplayContainer = styled.div`
 const Header = styled.div`
 
     .header {
-        transform: rotate(90deg);
+        // transform: rotate(90deg);
         padding: 0px 0px 0px 20px;
         font-family: 'UnifrakturCook', cursive;
         font-size: 50px;
@@ -44,6 +44,7 @@ const Header = styled.div`
     }
     .header:hover {
         background-color: yellow;
+        width: 100vw;
     }
 `
 
@@ -85,6 +86,15 @@ class Splash extends Component {
         return (
             <Wrapper>
 
+                <Header>
+                    <h1 className="header">grant<br />spell</h1>
+                </Header>
+
+                <Toolbar
+                    showResume={this.showResume}
+                    showProjects={this.showProjects}
+                    showContact={this.showContact}
+                />
                 <ContentWrapper>
 
                     <DisplayContainer>
@@ -93,17 +103,8 @@ class Splash extends Component {
 
                     </DisplayContainer>
 
-                    <Header>
-                        <h1 className="header">grant<br />spell</h1>
-                    </Header>
-
                 </ContentWrapper>
 
-                <Toolbar
-                    showResume={this.showResume}
-                    showProjects={this.showProjects}
-                    showContact={this.showContact}
-                />
 
             </Wrapper>
         );

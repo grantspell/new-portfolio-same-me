@@ -6,9 +6,9 @@ const ToolbarWrapper = styled.div`
     width: 100%;
     height: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 `
 const Button = styled.div`
     margin: 20px;
