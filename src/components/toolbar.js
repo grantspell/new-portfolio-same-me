@@ -12,7 +12,7 @@ const ToolbarWrapper = styled.div`
 `
 const Button = styled.div`
     margin: 20px;
-    border: double 5px red;
+    border: double 5px blue;
     border-radius: 2px;
     
     h3 {
